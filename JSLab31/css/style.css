@@ -1,0 +1,118 @@
+body, html { width: 550px; height: 150px; }
+.column{
+height: 100px;
+width: 550px;
+background-color: #c6d9f1;
+display: flex;
+align-items: center;
+}
+.column p{
+    margin-left: 30px;
+    text-align: left;
+}
+.block-x{
+    height: 25px;
+    width: 100px;
+    background-color: white;
+    margin-left: auto;
+    text-align: left;
+    margin-right: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+}
+.column-1 {
+    width: 150px;
+    background: #fde9d9;
+    float: right;
+    height: 450px;
+} 
+.column-1 p{
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 20px;
+}
+.column-2 {
+    width: 250px;
+    height: 300px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.column-2 .p1{
+    text-align: center;
+}
+.column-3 {
+    width: 150px;
+    height: 100%;
+    float: left;
+    background: #fde9d9;
+    display: flex;
+    align-items: center;
+}
+.column-3 p{
+    margin-left: 30px;
+}
+.column-4 {
+    width: 150px;
+    height: 100%;
+    float: left;
+    background: #eaf1dd;
+    display: flex;
+    align-items: center;
+}
+.column-4 p{
+    margin-left: 30px;
+}
+.column-5 {
+    width: 400px;
+    min-height: 100%;
+    float: left;
+    background: #c6d9f1;
+    display: flex;
+    align-items: center;
+}
+.column-5 .p6{
+    margin-left: auto;
+    text-align: right;
+    margin-right: 30px;
+}
+.block-y{
+    height: 25px;
+    width: 100px;
+    background-color: white;
+    margin-left: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+}
+button{
+    height: 30px;
+    width: 100px;
+}
+#result{
+    text-align: end;
+}
+#form {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(35px, 2fr));
+    grid-gap: 5px;
+    align-content: center;
+}
+
+#form input {
+    margin-bottom: 1px;
+    width: 100%;
+}
+
+#form button {
+    position: absolute;
+    padding: 4px 8px; 
+    font-size: 9px; 
+    z-index: 1;
+    width: max-content;
+    top: 168px;
+    right: -33px;
+}
